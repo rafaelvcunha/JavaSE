@@ -13,7 +13,7 @@ public class BufferedTest {
 	private static FileReader fr;
 	private static BufferedWriter bw;
 	private static BufferedReader br;
-	private static String s = null;
+//	private static String s = null;
 
 	public static void main(String[] args) {
 
@@ -52,6 +52,10 @@ public class BufferedTest {
 			System.out.println(field2);
 			System.out.print(field3);
 			System.out.print(field4);
+			
+//			while((s = br.readLine()) != null){
+//				System.out.println(s);
+//			}
 			
 			
 		} catch (IOException e) {
