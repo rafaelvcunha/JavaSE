@@ -5,3 +5,7 @@ B) Define the structure of a Java class
 C) Create executable Java applications with a main method; run a Java program from the command line; produce console output
 D) Import other Java packages to make them accessible in your code
 E) Compare and contrast the features and components of Java such as: platform independence, object orientation, encapsulation, etc.
+
+A) 
+Variáveis locais: Chamamos de locais as variáveis declaradas dentro de métodos ou construtores.
+Variáveis de instância ou variáveis de objeto: são os atributos dos objetos. São declaradas dentro da classe, mas fora de qualquer método ou construtor. Podem ser acessadas por qualquer membro da classe e ficam em escopo enquanto o objeto existir
