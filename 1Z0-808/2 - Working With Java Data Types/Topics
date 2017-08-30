@@ -1,0 +1,7 @@
+Working With Java Data Types
+
+A) Declare and initialize variables (including casting of primitive data types)
+B) Differentiate between object reference variables and primitive variables
+C) Know how to read or write to object fields
+D) Explain an Object's Lifecycle (creation, "dereference by reassignment" and garbage collection)
+E) Develop code that uses wrapper classes such as Boolean, Double, and Integer
