@@ -15,3 +15,5 @@ Essas variáveis estão no escopo da classe, e lá ficarão enquanto a classe es
 Variáveis com o mesmo nome: Não é possível declarar no mesmo escopo com o mesmo nome, mas odemos ter variáveis em escopos diferentes que podem ser declaradas com o mesmo nome. 
 Em casos em que possa haver ambiguidade na hora de declará-las, o próprio compilador irá emitir um erro evitando a confusão.
 Shadowing: é permitido declarar variáveis locais ou parâmetros com o mesmo nome de variáveis de instância ou de classe. 
+
+B)
