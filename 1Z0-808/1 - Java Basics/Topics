@@ -8,4 +8,10 @@ E) Compare and contrast the features and components of Java such as: platform in
 
 A) 
 Variáveis locais: Chamamos de locais as variáveis declaradas dentro de métodos ou construtores.
-Variáveis de instância ou variáveis de objeto: são os atributos dos objetos. São declaradas dentro da classe, mas fora de qualquer método ou construtor. Podem ser acessadas por qualquer membro da classe e ficam em escopo enquanto o objeto existir
+Variáveis de instância ou variáveis de objeto: são os atributos dos objetos. São declaradas dentro da classe, mas fora de qualquer método ou construtor. 
+Podem ser acessadas por qualquer membro da classe e ficam em escopo enquanto o objeto existir.
+Variáveis estáticas (class variables): Podemos declarar variáveis que são compartilhadas por todas as instâncias de uma classe usando a palavra chave static. 
+Essas variáveis estão no escopo da classe, e lá ficarão enquanto a classe estiver carregada na memória (enquanto o programa estiver rodando, na grande maioria dos casos).
+Variáveis com o mesmo nome: Não é possível declarar no mesmo escopo com o mesmo nome, mas odemos ter variáveis em escopos diferentes que podem ser declaradas com o mesmo nome. 
+Em casos em que possa haver ambiguidade na hora de declará-las, o próprio compilador irá emitir um erro evitando a confusão.
+Shadowing: é permitido declarar variáveis locais ou parâmetros com o mesmo nome de variáveis de instância ou de classe. 
