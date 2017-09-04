@@ -6,7 +6,7 @@ C) Create executable Java applications with a main method; run a Java program fr
 D) Import other Java packages to make them accessible in your code
 E) Compare and contrast the features and components of Java such as: platform independence, object orientation, encapsulation, etc.
 
-A) 
+A) Defina o escopo de variáveis
 Variáveis locais: Chamamos de locais as variáveis declaradas dentro de métodos ou construtores.
 Variáveis de instância ou variáveis de objeto: são os atributos dos objetos. São declaradas dentro da classe, mas fora de qualquer método ou construtor. 
 Podem ser acessadas por qualquer membro da classe e ficam em escopo enquanto o objeto existir.
@@ -16,4 +16,15 @@ Variáveis com o mesmo nome: Não é possível declarar no mesmo escopo com o me
 Em casos em que possa haver ambiguidade na hora de declará-las, o próprio compilador irá emitir um erro evitando a confusão.
 Shadowing: é permitido declarar variáveis locais ou parâmetros com o mesmo nome de variáveis de instância ou de classe. 
 
-B) 
+B) Defina a estrutura de uma classe Java
+Pacotes: Pacotes servem para separar e organizar as diversas classes que temos em nossos sistemas. Todas as classes pertencem a um pacote, sendo que, 
+caso o pacote não seja explicitamente declarado, a classe fará parte do que chamamos de pacote padrão, ou default package. Todas as classes no default 
+package se enxergam e podem ser utilizadas entre si. Classes no pacote default não podem ser importadas para uso em outros pacotes.
+Classe: Uma classe é a forma no Java onde definimos os atributos e comportamentos de um objeto.
+Nomes dos membros: Variaveis, Métodos, Construtores, Métodos com o mesmo nome da classe, Interfaces, Multíplas estruturas em um arquivo, Pacotes e imports em arquivos com múltiplas estruturas.
+Multíplas estruturas em um arquivo
+Em java, é possível definir mais de uma classe/interface em um mesmo arquivo java, embora devamos seguir algumas regras:
+-Podem ser definidos em qualquer ordem;
+-Se existir alguma classe/interface pública, o nome do arquivo deve ser o mesmo dessa classe/interface;
+-Só pode existir uma classe/interface pública por arquivo;
+-Se não houver nenhuma classe/interface pública, o arquivo pode ter qualquer nome.
