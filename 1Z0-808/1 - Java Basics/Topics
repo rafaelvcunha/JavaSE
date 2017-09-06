@@ -56,3 +56,5 @@ Para saber mais: arquivos JAR e META-INF/Manifest.mf:
 -Criar o arquivo Manifest.txt e preenchido com "Main-Class: ArquivoJar<CR><LF>"
 -jar cmf Manifest.txt ArquivoJar.jar ArquivoJar.class
 -java -jar ArquivoJar.jar
+
+D)Importe outros pacotes Java e deixe-os acessíveis ao seu código
