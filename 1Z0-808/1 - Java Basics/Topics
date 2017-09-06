@@ -21,10 +21,38 @@ Pacotes: Pacotes servem para separar e organizar as diversas classes que temos e
 caso o pacote não seja explicitamente declarado, a classe fará parte do que chamamos de pacote padrão, ou default package. Todas as classes no default 
 package se enxergam e podem ser utilizadas entre si. Classes no pacote default não podem ser importadas para uso em outros pacotes.
 Classe: Uma classe é a forma no Java onde definimos os atributos e comportamentos de um objeto.
-Nomes dos membros: Variaveis, Métodos, Construtores, Métodos com o mesmo nome da classe, Interfaces, Multíplas estruturas em um arquivo, Pacotes e imports em arquivos com múltiplas estruturas.
+Nomes dos membros: Variaveis, Métodos, Construtores, Métodos com o mesmo nome da classe, Interfaces, Multíplas estruturas em um arquivo, Pacotes e 
+imports em arquivos com múltiplas estruturas.
 Multíplas estruturas em um arquivo
 Em java, é possível definir mais de uma classe/interface em um mesmo arquivo java, embora devamos seguir algumas regras:
 -Podem ser definidos em qualquer ordem;
 -Se existir alguma classe/interface pública, o nome do arquivo deve ser o mesmo dessa classe/interface;
 -Só pode existir uma classe/interface pública por arquivo;
 -Se não houver nenhuma classe/interface pública, o arquivo pode ter qualquer nome.
+
+C)Crie aplicações Java executáveis com um método main
+Método main: O tal método de entrada deve seguir algumas regras para ser executado pela JVM:
+-Ser público (public);
+-Ser estático (static);
+-Não ter retorno (void);
+-Ter o nome ::main::;
+-Receber como parâmetro um array ou varargs de String (String[] ou String...).
+Compilação e execução
+-Para criar um programa java, é preciso escrever um código-fonte e, através de um compilador, gerar o executável (bytecode). O compilador do JDK é o ::javac::.
+A execução do bytecode é feita pela JVM (::Java Virtual Machine::). O comando java invoca a máquina virtual para executar um programa java.
+Propriedades na linha de comando
+-java -Ddesenvolvedor=RafaelVieiraDaCunha PropriedadesParametros Adicionado
+-import java.util.Properties;
+-class PropriedadesParametros{
+-    public static void main(String[] args){
+-        Properties propriedade  =  System.getProperties();
+-        propriedade.list(System.out);
+-        System.out.println("Parametro "+args[0]);
+-    }
+-}
+Com as opções -cp ou -classpath dos comandos javac ou java. javac -cp /diretorio/biblioteca.jar;/outrodir/ scjp/Prova.java
+Para saber mais: arquivos JAR e META-INF/Manifest.mf: 
+-javac ArquivoJar.java
+-Criar o arquivo Manifest.txt e preenchido com "Main-Class: ArquivoJar<CR><LF>"
+-jar cmf Manifest.txt ArquivoJar.jar ArquivoJar.class
+-java -jar ArquivoJar.jar
