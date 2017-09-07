@@ -1,5 +1,7 @@
 package financeiro;
 
+import modelo.Pessoa;
+
 /**
 financeiro/Pedido.java:5: error: Pessoa is not public in modelo; cannot be accessed from outside package
     modelo.Pessoa cliente;
@@ -9,6 +11,7 @@ financeiro/Pedido.java:5: error: Pessoa is not public in modelo; cannot be acces
 
 class Pedido{
 
-    modelo.Pessoa cliente;
+    //modelo.Pessoa cliente;
+    Pessoa cliente;
 
 }

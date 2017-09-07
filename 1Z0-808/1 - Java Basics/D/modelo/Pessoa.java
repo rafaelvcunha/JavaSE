@@ -1,6 +1,6 @@
 package modelo;
 
-class Pessoa{
+public class Pessoa{
 
     Endereco endereco; // Pessoa usando o  endereço
 

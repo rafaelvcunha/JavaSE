@@ -58,3 +58,5 @@ Para saber mais: arquivos JAR e META-INF/Manifest.mf:
 -java -jar ArquivoJar.jar
 
 D)Importe outros pacotes Java e deixe-os acessíveis ao seu código
+Uma classe por padrão, só pode ser acessada dentro do próprio pacote, para que seja acessada é necessário deixa-la public
+Classe de pacote que não seja o padrão pode importar uma classe do pacote padrão.
