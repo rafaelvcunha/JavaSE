@@ -5,3 +5,29 @@ B) Differentiate between object reference variables and primitive variables
 C) Know how to read or write to object fields
 D) Explain an Object's Lifecycle (creation, "dereference by reassignment" and garbage collection)
 E) Develop code that uses wrapper classes such as Boolean, Double, and Integer
+
+
+A)Declarar e inicializar variáveis
+Quando a variável é membro de uma classe, ela é iniciada implicitamente junto com o objeto com um valor default.
+Quando iniciadas implicitamente, os valores default para as variáveis são:
+-primitivos numéricos inteiros: 0
+-primitivos numéricos com ponto flutuante: 0.0
+-boolean: false
+-char: vazio, equivalente a 0
+-referências: null
+Tipos primitivos
+Todos os tipos primitivos do Java já estão definidos e não é possível criar novos tipos primitivos. 
+São oito os tipos primitivos do Java: byte, short, char, int, long, float, double e boolean.
+Os tipos inteiros têm os seguintes tamanhos:
+-byte - 1 byte (8 bits, de -128 a 127);
+-short - 2 bytes (16 bits, de –32.768 a 32.767);
+-char - 2 bytes (só positivo), (16 bits, de 0 a 65.535);
+-int - 4 bytes (32 bits, de –2.147.483.648 a 2.147.483.647);
+-long - 8 bytes (64 bits, de –9.223.372.036.854.775.808 a 9.223.372.036.854.775.807).
+Usando underlines em literais
+A regra básica é que eles só podem ser posicionados com valores numéricos em ambos os lados
+Identificadores válidos devem seguir as seguintes regras:
+-Não podem ser igual a uma palavra-chave;
+-Podem usar letras (unicode), números, $ e _;
+-O primeiro caractere não pode ser um número;
+-Podem possuir qualquer número de caracteres.
