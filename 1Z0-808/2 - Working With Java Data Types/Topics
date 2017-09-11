@@ -127,3 +127,8 @@ Além de acessar atributos, também podemos invocar métodos em um objeto. Para 
 A partir do Java 5, varargs possibilitam um método que receba um número variável (não fixo) de parâmetros. É a maneira de receber um array de objetos e 
 possibilitar uma chamada mais fácil do método
 
+
+F)Manipulando dados usando a classe StringBuilder
+Os principais métodos de StringBuffer e StringBuilder são append, insert, delete, charAt, length(), equals, indexOf, lastIndexOf, substring.
+
+G)Criando e Manipulando Strings
