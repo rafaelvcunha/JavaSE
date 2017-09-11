@@ -93,3 +93,32 @@ esses três termos são considerados literais e não palavras-chave (embora tamb
 
 
 B)Diferenciar entre variáveis de referências a objetos e tipos primitivos
+Duas referências são consideradas iguais somente se elas estão apontando para o mesmo objeto. 
+Mesmo que os objetos que elas apontem sejam iguais, ainda são referências para objetos diferentes
+
+C)Lendo ou escrevendo campos de objetos
+Ler e escrever propriedades em objetos é uma das tarefas mais comuns em um programa java. Para acessar um atributo, usamos o operador . (ponto), 
+junto a uma variável de referência para um objeto.
+
+D)O ciclo de vida de um objeto
+Criação de objetos
+    Toda vez que usamos o operador new, estamos criando uma nova instância de um objeto na memória
+    // Apenas declarando a variável, 
+    // nenhum objeto foi criado aqui
+    Pessoa p;
+
+    // Agora um objeto foi criado e atribuído a variável
+    p = new Pessoa();
+Objeto acessível ou inacessível
+    A partir do momento em que um objeto foi criado e atribuído a uma variável, dizemos que o objeto está acessível, ou seja, podemos usá-lo em nosso programa
+    Pessoa p = new Pessoa(); // criação
+    p.nome = "Mário"; // acessando e usando o objeto
+    // atribuímos a p o valor null
+    // o objeto não está mais acessível
+    p = null
+    // criando um objeto sem variável
+    new Pessoa();
+Garbage Collector
+    Todo objeto inacessível é considerado elegível para o ::garbage collector::. Nunca temos certeza de quantos objetos passaram pelo garbage collector, logo, 
+        somente indique quantos estão passíveis de serem coletados.
+
