@@ -122,3 +122,6 @@ Garbage Collector
     Todo objeto inacessível é considerado elegível para o ::garbage collector::. Nunca temos certeza de quantos objetos passaram pelo garbage collector, logo, 
         somente indique quantos estão passíveis de serem coletados.
 
+E)Chamadas de métodos nos objetos
+
+
