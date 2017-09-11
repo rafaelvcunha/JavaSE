@@ -129,6 +129,24 @@ possibilitar uma chamada mais fácil do método
 
 
 F)Manipulando dados usando a classe StringBuilder
-Os principais métodos de StringBuffer e StringBuilder são append, insert, delete, charAt, length(), equals, indexOf, lastIndexOf, substring.
+Os principais métodos de StringBuffer e StringBuilder são:
+append: apenda texto.
+insert: Insere texto na posição informada.
+delete: deleta texto nas posições informadas
+charAt: informa o caracter da posição informada
+length(): tamanho da String 
+equals: verifica se o objeto é igual ao verificado e não o valor da variavel 
+indexOf: informa a posição da string informada na string pesquisada 
+lastIndexOf:  informa a ultima posição da string informada na string pesquisada  var str = "time, time"; str.lastIndexOf("time"); //time is at position 6
+substring: devolve a substring a partir dos índices de começo e fim;
 
 G)Criando e Manipulando Strings
+Devolvem uma nova String:
+String toUpperCase() - tudo em maiúscula;
+String toLowerCase() - tudo em minúsculo;
+String trim() - retira espaços em branco no começo e no fim;
+String substring(int beginIndex, int endIndex) - devolve a substring a partir dos índices de começo e fim;
+String substring(int beginIndex) - semelhante ao anterior, mas toma a substring a partir do índice passado até o final da String;
+String concat(String) - concatena o parâmetro ao fim da String atual e devolve o resultado;
+String replace(char oldChar, char newChar) - substitui todas as ocorrências de determinado char por outro;
+String replace(CharSequence target, CharSequence replacement) - substitui todas as ocorrências de determinada CharSequence (como String) por outra.
