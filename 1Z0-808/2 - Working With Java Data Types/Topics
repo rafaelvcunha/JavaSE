@@ -123,5 +123,7 @@ Garbage Collector
         somente indique quantos estão passíveis de serem coletados.
 
 E)Chamadas de métodos nos objetos
-
+Além de acessar atributos, também podemos invocar métodos em um objeto. Para isso usamos o operador . (ponto), junto a uma variável de referência para um objeto.
+A partir do Java 5, varargs possibilitam um método que receba um número variável (não fixo) de parâmetros. É a maneira de receber um array de objetos e 
+possibilitar uma chamada mais fácil do método
 
